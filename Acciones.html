@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Acciones</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://scontent.fgua3-3.fna.fbcdn.net/v/t1.6435-9/161688582_5371913029517877_5163691772581086103_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=5joLEu7ItNwAX8lT2Y6&_nc_ht=scontent.fgua3-3.fna&oh=00_AT95JtuJYpuPP9zV7XwY8vaGKnMb1jpTAy3KrwsmdM3c7w&oe=62DC900A");
+  min-height: 90%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links al inicio del sitio y partes de la página -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="Pagina.html" class="w3-button w3-block w3-green">INICIO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">Programa de Nutrición</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">¿Qué hacen?</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header que contiene la imagen principal de arriba -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Programa De Nutrición</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">URL Quetzaltenango</span>
+  </div>
+</header>
+
+<!-- Sistema implementado como cuerpo que puede cambiar de color según el código y configuración en general -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- Inicio del contenido -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Programa De Nutrición</span></h5>
+    <p align="justify">Actualmente la Fundación Juan Bautista Gutiérrez, con su Programa De Nutrición, realiza un gran aporte en el
+        proposito de ponerle fin al hambre, lograr la seguridad alimentaria, la mejora de la nutrición y promover
+        la agricultura sostenible.
+      <br>
+      <br>
+      El obejtivo de este programa es generar un impacto generacional al incidir en la disminución de los índices actuales de
+      desnutrición crónica, siguiendo los principios de la Seguridad Alimentaria y Nutricional, a través de la transformación
+      y desarrollo de competencias, promoviendo la autosostenibilidad en el cambio de comportamiento de las mujeres y sus
+      familias; acercando alimento nutritivo a las comunidades e impulsando la generación de ingreso a través del emprendimiento.
+    </p>
+    <p></p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+    </div>
+    <img src="https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/285685561_7743635445678945_6418516261410028477_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=sUQPScKbAXsAX-NncTT&_nc_ht=scontent.fgua3-4.fna&oh=00_AT9rSU2nGD2KTd8n9Wv8M50Vu_GA9R6TrtdPItgG4x-D3w&oe=62BD001F" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Tabla de contenido -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">¿Qué hacen?</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'informaciónR');" id="myLink">
+        <div class="w3-col s6 tablink">Acciones</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Infogeneral');">
+        <div class="w3-col s6 tablink">Noticia Reciente</div>
+      </a>
+    </div>
+
+    <div id="informaciónR" class="w3-container menu w3-padding-48 w3-card">
+      <h5><li>Intruyen a las mujeres sombre como:</li></h5>
+      <p class="w3-text-grey" align="justify"><ul>
+        <li class="w3-text-grey" align="justify">Promover el empoderamiento de la mujer</li>
+        <li class="w3-text-grey" align="justify">Prácticar la higiene individual, familiar y comunitario</li>
+        <li class="w3-text-grey" align="justify">Realizar prácticas adecuadas de salud materno infantil</li>
+    </ul></p><br>
+
+      <h5><li>Vigilan el crecimiento de los niños participantes entre 0 a 5 años</li></h5>
+
+      <h5><li>Acercan alimentos nutritivos a las comunidades, a través de la dotación de Nutribien y la
+        implementación de negocios Rincones y Casas del Pollo en alianza con CMI Alimentos para acercar la proteína animal.</li></h5>
+
+      <h5><li>Generan ingresos, a través de la consolidación de los negocios de las emprendedoras.</li></h5>
+
+      <br>
+      <br>
+      <img src="https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/273470711_7204350276274134_3742278310491352853_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=bSQUbix5z9gAX-SGYq7&_nc_ht=scontent.fgua3-4.fna&oh=00_AT_-QwpgFEUavL8CsLsf_liyBYNuivx_ERrtIvui9U-AJg&oe=62BC1A7D" style="width: 600px; height:600px; text-align:center">
+
+  </div>
+  	<div id="Infogeneral" class="w3-container menu w3-padding-48 w3-card">
+    <h5> Actualmente el "Programa De Nutribien" llevó a cabo la Feria de la Salud, en la comunidad de Pasajoc, en el municipio de Totonicapán.
+         El personal de salud de dicha comunidad invitó a la Fundación Juan Bautista Gutierrez a participar dentro de la misma, con el objetivo
+         de brindar atención a los asistentes a esta actividad.  Melanie Ríos, Nutricionista e Ixchel Velásquez, Técnico de Campo asistieron
+         para brindar atención nutricional.</h5>
+    <img src="https://www.fundacionjbg.org/wp-content/uploads/2022/06/20220609_084407-1-1024x768.jpg" style="width: 650px; height:350px; text-align: center;">
+
+</div>
+
+<!-- Fin del contenido de la página -->
+</div>
+
+<!-- Footer de la página -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>HACKFEST 2022 Universidad Rafael Landívar, Campus Quetzaltenango </p>
+  <p>Fuente: https://www.fundacionjbg.org/programa-de-nutricion/</p>
+</footer>
+
+<script>
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
