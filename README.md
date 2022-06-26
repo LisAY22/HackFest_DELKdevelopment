@@ -10,5 +10,5 @@ Este sitio web se compone de 4 páginas:
 Esta página fue hecha por 4 personas:
 - - Elisa Ajxup   @LisAY22 
 - - Karol Castro  @Karmaz-29
-- - Jorge Morales 
+- - Jorge Morales @JorgMorales
 - - Daniel García @DaniGV33
